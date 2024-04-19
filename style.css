@@ -1,6 +1,21 @@
 .custom-bg-grey {
     background-color: #b8aeae; /* Adjust the color code to your desired shade of grey */
 }
-
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    body {
+      background-color: #fff; /* Change background color for mobile */
+    }
+    .jumbotron {
+      padding: 3rem 1rem; /* Adjust padding for smaller screens */
+    }
+    .display-4 {
+      font-size: 2.5rem; /* Adjust font size for smaller screens */
+    }
+    .lead {
+      font-size: 1.2rem; /* Adjust font size for smaller screens */
+    }
+  }
+  
   
 
